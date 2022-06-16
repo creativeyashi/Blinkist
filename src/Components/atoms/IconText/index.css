@@ -1,0 +1,38 @@
+.text {
+  width: 128px;
+  height: 24px;
+
+  /* beta/body 2 */
+
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* beta/text/high emphasis */
+
+  color: #03314b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+iconi:hover{
+  fill:"#0365F2";
+    color: "#0365F2";
+     display: 'flex';
+     justify-content: 'center';
+}
