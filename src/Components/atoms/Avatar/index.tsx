@@ -23,7 +23,7 @@ function Avatars(props:props) {
 
   return (
     <>
-      <Avatar sx={ {bgcolor:'#69A6E3'} } className={classes.avatar}>{props.chars}</Avatar>
+      <Avatar sx={ {bgcolor:'#69A6E3'} } className={classes.avatar}>A</Avatar>
     </>
   )
 }

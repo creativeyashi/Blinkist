@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     fontSize: "36px",
     lineHeight: "45px",
     position:"relative",
-    left:"40px",
+    left:"35px",
     width:'500px',
     padding:'25px 0px',
   },
@@ -30,7 +30,7 @@ function LibraryTemplate() {
       <Header avatarIcon={true} chars={user?.name}></Header>
       </Box>
       <Box className={classes.libraryText}>My Library</Box>
-      <Box position={"relative"} left={"100px"} width={"90%"} minHeight={1000}>
+      <Box position={"relative"} left={"100px"} width={"98%"} minHeight={1000} marginLeft="10px">
       <Tabs></Tabs>
       </Box>
       </Box>

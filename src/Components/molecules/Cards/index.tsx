@@ -17,6 +17,7 @@ import Button from "../../atoms/Button";
 import AddIcon from "@mui/icons-material/Add";
 import api from "../../../api/api";
 import { useNavigate } from "react-router-dom";
+import { padding } from "@mui/system";
 
 const useStyles = makeStyles({
   root: {
@@ -66,7 +67,7 @@ function MediaCards(props: props) {
   let navigate = useNavigate();
 
   let bookdetPage = (bookId:number) =>{
-    navigate("/bookdet/"+bookId);
+    navigate("/bookdetail/"+bookId);
   }
   const classes = useStyles();
 
@@ -215,14 +216,14 @@ function MediaCards(props: props) {
             fontSize={"16px"}
             lineHeight={"20px"}
             fontWeight={400}
-            padding={"3px 0px"}
+            padding={"9px 0px"}
           >
             {props.authorName}
           </Typography>
-          <Box style={{ display: "flex", justifyContent: "space-between" }}>
+          <Box style={{ display: "flex", justifyContent: "space-between" ,textAlign:"left",padding:"5px" ,marginLeft:"-8px"}}>
             <IconText
               name={props.time+"-minutes read"}
-              icon={<Time style={{ height: "16.67px", width: "16.67px" }} />}
+              icon={<Time style={{ height: "16.67px", width: "16.67px",textAlign:"left" }} />}
               styling={"cardText"}
             />
             <IconText

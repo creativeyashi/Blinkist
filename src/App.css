@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: 'CircularStd-Medium';
+  font-style: normal;
+  src: local('CircularStd-Medium'), local('CircularStd-Medium'),
+    url('../cera/Cera\ Pro\ Regular\ Italic.otf') format('otf'), 
+}

@@ -35,8 +35,3 @@ test("Header Account click Test",async () => {
     expect(changedElement).toBe(headerElement);
 })
 
-test("Header Account Icon click Test",async () => {
-    render(<BrowserRouter> <Header avatarIcon={true}/> </BrowserRouter>);
-    const headerElement = screen.getByTestId(/PersonIcon/i);
-    expect(headerElement).toBe(headerElement);
-})

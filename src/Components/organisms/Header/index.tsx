@@ -83,19 +83,21 @@ function Header(props: props) {
   }
   
   return (
-    <Box width="91%">
+    //header box s
+    <Box width="94%">
       <Box
         style={{
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
           height: "56px",
-          marginLeft: "100px",
+          marginLeft: "190px",
+        
         }}
       >
         <Box
           style={{
-            width: "377px",
+            width: "390px",
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
@@ -111,6 +113,7 @@ function Header(props: props) {
             icon={undefined}
           />
           <Buttons
+            
             name="My Library"
             classing="explore"
             end={undefined}
@@ -125,8 +128,9 @@ function Header(props: props) {
           open={tryingback}
           sx={{
             position: "absolute",
-            top: "80px",
-            backgroundColor: "rgba(157, 163, 166, 0.45)",
+            top: "118px",
+            backgroundSize: "1400px",
+            backgroundColor: "rgba(157, 163, 166, 0.45)",  
             zIndex: zIndex.drawer + 1,
           }}
           onClick={backdroptry}
@@ -136,7 +140,7 @@ function Header(props: props) {
       ) : null}
 
 {logouttry ? (
-  <Box display={"flex"} justifyContent="flex-end" width="95%">
+  <Box display={"flex"} justifyContent="flex-end" width="95%" marginLeft="250px">
     <Box width="500px" display={"flex"} justifyContent="flex-end">
   {logutAction}
   </Box>

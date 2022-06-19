@@ -49,7 +49,7 @@ function CardsList(props: props) {
     books.filter((item) => item.complete === props.checkComplete).length ===
     0 ? (
       <Typography variant="h4" fontWeight={700}>
-        No Books to Show
+        {/* No Books to Show */}
       </Typography>
     ) : null;
 

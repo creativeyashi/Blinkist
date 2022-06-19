@@ -8,21 +8,24 @@ function Banner() {
     <Box
       style={{
         height: "264",
-        width: "912px",
+        width: "74%",
         backgroundColor: "#F1F6F4",
         display: "flex",
         justifyContent: "space-around",
+       
       }}
     >
-      <Box height={"264px"} width={"461px"}>
+      <Box height={"264px"} width={"460px"} alignContent={"left"}>
 
         <Typography
           variant="h1"
-          fontStyle={"normal"}
-          fontSize={"36px"}
-          fontWeight={"700"}
+          fontStyle={"Cera Pro"}
+          fontSize={"30px"}
+          fontWeight={"650"}
           lineHeight={"45px"}
           paddingTop={"45px"}
+          textAlign={"left"}
+        
         >
           Explore Books on <br></br>
           entrepreneurship
@@ -35,6 +38,7 @@ function Banner() {
           lineHeight={"23px"}
           color={"#6D787E"}
           paddingTop={"15px"}
+          textAlign={"left"}
         >
           Everything you need to know about thriving on a<br></br>
           shoestring budget, making your first million, and hiring <br></br>
@@ -48,6 +52,7 @@ function Banner() {
           alt="Banner Image"
           height={"230px"}
           width={"249px"}
+
         />
       </Box>
     </Box>
