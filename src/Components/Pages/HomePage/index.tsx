@@ -28,7 +28,7 @@ function HomeTemplate() {
   return (
     <Box minHeight={"100vh"} >
       <Box width="90%" padding="0% 5%">
-      <Box paddingTop="35px" marginLeft={"-5px"}>
+      <Box paddingTop="35px" marginLeft={"-15px"}>
       <Header avatarIcon={true} ></Header>
       </Box>
       <Box display="flex" justifyContent={"center"}  width="100%" padding="40px" marginLeft={"-40px"} >
