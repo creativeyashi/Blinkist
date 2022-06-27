@@ -22,6 +22,7 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.1.3",
     "jest": "^28.1.1",
+    "jest-sonar-reporter": "^2.0.0",
     "json-server": "^0.17.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
@@ -40,7 +41,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner"
   },
   "eslintConfig": {
     "extends": [
@@ -70,17 +72,6 @@
       "last 1 safari version"
     ]
   },
-  "jest": {
-    "coveragePathIgnorePatterns": [
-      "<rootDir>/src/App.tsx",
-      "<rootDir>/src/LoginPage.tsx",
-      "<rootDir>/src/Routing.tsx",
-      "<rootDir>/src/index.tsx",
-      "<rootDir>/src/reportWebVitals.ts",
-      "<rootDir>/src/Components/Pages/",
-      ".stories.tsx"
-    ]
-  },
   "devDependencies": {
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
@@ -93,8 +84,21 @@
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
     "@testing-library/react": "^13.3.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
+    "sonar-scanner": "^3.1.0",
     "webpack": "^5.73.0"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/src/App.tsx",
+      "<rootDir>/src/LoginPage.tsx",
+      "<rootDir>/src/Routing.tsx",
+      "<rootDir>/src/index.tsx",
+      "<rootDir>/src/reportWebVitals.ts",
+      "<rootDir>/src/Components/Pages/",
+      ".stories.tsx"
+    ]
   }
 }

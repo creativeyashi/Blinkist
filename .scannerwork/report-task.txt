@@ -1,0 +1,7 @@
+organization=creativeyashi
+projectKey=yashika.react
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.29848
+dashboardUrl=https://sonarcloud.io/dashboard?id=yashika.react
+ceTaskId=AYGQLyWK0nVA0Dzt5Nr2
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYGQLyWK0nVA0Dzt5Nr2
