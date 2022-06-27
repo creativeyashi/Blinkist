@@ -140,7 +140,7 @@ function Header(props: props) {
       ) : null}
 
 {logouttry ? (
-  <Box display={"flex"} justifyContent="flex-end" width="95%" marginLeft="250px">
+  <Box display={"flex"} justifyContent="flex-end" width="95%" marginLeft="1.8%">
     <Box width="500px" display={"flex"} justifyContent="flex-end">
   {logutAction}
   </Box>
