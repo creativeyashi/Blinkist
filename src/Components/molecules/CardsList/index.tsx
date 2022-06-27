@@ -36,7 +36,7 @@ function CardsList(props: props) {
 
   useEffect(() => {
     getBooks();
-  });
+  },[]);
 
   var operCheck =
     props.checkComplete === 0

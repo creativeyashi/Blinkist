@@ -30,7 +30,7 @@ function LibraryTemplate() {
       <Header avatarIcon={true} chars={user?.name}></Header>
       </Box>
       <Box className={classes.libraryText}>My Library</Box>
-      <Box position={"relative"} left={"100px"} width={"98%"} minHeight={1000} marginLeft="10px">
+      <Box position={"relative"} left={"100px"} width={"98%"} minHeight={1000} marginLeft="1px" fontFamily={"Cera Pro"} textAlign={"left"}>
       <Tabs></Tabs>
       </Box>
       </Box>

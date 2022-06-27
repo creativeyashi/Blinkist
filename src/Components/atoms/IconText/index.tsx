@@ -11,6 +11,7 @@ const useStyles = makeStyles({
     lineHeight: "24px",
     letterSpacing: "0px",
     textAlign: "left",
+    marginLeft:"-1px",
     display: "flex",
     color:'#6D787E',
 
@@ -43,7 +44,7 @@ function IconText(props: props) {
   return (
       <Typography component="div" className={styles}>
         <Box className="iconi">{props.icon}</Box>
-        <Box>{props.name}</Box>
+        <Box paddingLeft={"3%"}>{props.name}</Box>
       </Typography>
   );
 }

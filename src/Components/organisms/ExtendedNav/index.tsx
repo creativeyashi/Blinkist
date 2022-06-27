@@ -42,10 +42,10 @@ function ExtendedNav() {
     <Box
       height={"auto"}
       width={"100%"}
-      sx={{ backgroundColor: "#F1F6F4", position: "relative", top: "-94px" }}
+      sx={{ backgroundColor: "#F1F6F4", position: "relative", top: "-109px" }}
     >
       <Box className={classes.fisrtContain}>
-        <Box display={"flex"} borderBottom="solid 1px black" width="980px" marginLeft={"-5px"}>
+        <Box display={"flex"} borderBottom="solid 1px black" width="980px" marginLeft={"50px"} textAlign={"left"}>
           <Typography className={classes.forTypo}>
             Explore by category
           </Typography>
@@ -58,12 +58,12 @@ function ExtendedNav() {
         </Box>
       </Box>
       <Box className={classes.fisrtContain}>
-        <Box width="1140px" marginLeft={"175px"} display={"flex"} flexWrap={"wrap"}>
+        <Box width="1140px" marginLeft={"195px"} display={"flex"} flexWrap={"wrap"} >
           {Navigation.map((data, key) => {
             return (
               <Box
                 flexBasis={"33.3333333333%"}
-                paddingBottom={"28px"}
+                paddingBottom={"25px"}
                 key={key}
               >
                 <Link
@@ -72,6 +72,7 @@ function ExtendedNav() {
                   data-testid={"link-a"}
                 >
                   <IconText
+                    
                     name={data.title}
                     key={key}
                     icon={data.icon}

@@ -220,7 +220,12 @@ function MediaCards(props: props) {
           >
             {props.authorName}
           </Typography>
-          <Box style={{ display: "flex", justifyContent: "space-between" ,textAlign:"left",padding:"5px" ,marginLeft:"-8px"}}>
+          <Box style={{ display: "flex", justifyContent: "space-between" ,textAlign:"left",padding:"5px" ,marginLeft:"-8px",
+        
+        
+          clear:"both" ,   overflow: "hidden",
+          whiteSpace:"nowrap",
+              }}>
             <IconText
               name={props.time+"-minutes read"}
               icon={<Time style={{ height: "16.67px", width: "16.67px",textAlign:"left" }} />}

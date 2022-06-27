@@ -6,19 +6,25 @@ import CardsList from "../CardsList";
 
 const useStyles = makeStyles({
   tabsclass: {
-    width: "304px",
+    width: "355px",
     height: "23px",
-
+    
     fontFamily: "Cera Pro",
     fontStyle: "normal",
     fontSize: "18px",
     lineHeight: "23px",
-
+    textAlign:"left",
+      marginLeft:"-1.2%",
+  
     alignItems: "flex-start",
     textTransform: "none",
 
     "&:focus": {
+      FontFace:"Cera Pro",
+      textAlign:"left",
+      marginLeft:"-1.2%",
       color: "#22C870",
+      fontWeight:"bold",
     },
   },
 });
